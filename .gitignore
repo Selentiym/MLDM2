@@ -1,0 +1,15 @@
+# no need to upload pickles to VCS
+*.pkl
+
+# pdfs and htmls can be obtained from .ipynb
+*.pdf
+*.html
+
+# version control of backups is useless
+.ipynb_checkpoints
+
+# dataset is not needed in git
+samples
+
+# I prefer not to hsare my private settings :)
+.idea
